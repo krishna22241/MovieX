@@ -1,0 +1,91 @@
+/* Container for the form */
+.create-list-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading styles */
+  .create-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Input field */
+  .create-list-container input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555555;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .create-list-container input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
+  }
+  
+  /* Checkbox label */
+  .create-list-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555555;
+    cursor: pointer;
+  }
+  
+  .create-list-container input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #28a745; /* Modern browsers will use this for checkbox color */
+  }
+  
+  /* Button styles */
+  .create-list-container button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .create-list-container button:hover {
+    background: #218838;
+    transform: translateY(-2px);
+  }
+  
+  .create-list-container button:active {
+    background: #1e7e34;
+    transform: translateY(0);
+  }
+  
+  /* Message styles */
+  .create-list-container p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #dc3545; /* Default error message color */
+  }
+  
+  .create-list-container p.success {
+    color: #28a745; /* Success message color */
+  }
+  

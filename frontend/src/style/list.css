@@ -1,0 +1,77 @@
+.list-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .list-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-container ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #faf8f9;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    font-size: 20px;
+    color: #ff2a92;
+    font-weight: bolder;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .list-container ul li:hover {
+    background: #e2e6ea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-container .empty-message {
+    text-align: center;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 20px;
+  }
+  .list-actions{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-actions button {
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .list-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-actions button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .list-actions button:last-child:hover {
+    background-color: #a71d2a;
+  

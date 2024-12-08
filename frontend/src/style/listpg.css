@@ -1,0 +1,106 @@
+/* General container for the list page */
+.lp {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+/* Container for the list details */
+.list-page-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.list-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Grid layout for movies */
+.movies-gri {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Movie card container */
+.movie-car {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.movie-car:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Movie poster styling */
+.movie-car img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Movie title */
+.movie-car h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Movie year */
+.movie-car p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Remove button styling */
+.remove-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Loading message */
+.loading-message {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* No movies message */
+.movies-gri p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 20px;
+}

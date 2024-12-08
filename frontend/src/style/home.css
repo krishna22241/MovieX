@@ -1,0 +1,70 @@
+/* Main container styling */
+.home {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('../assets/home.png') no-repeat center center/cover;
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start; /* Align items to the left */
+  padding: 40px; /* Add padding for spacing */
+}
+
+.home-container {
+  margin-top: 100px;
+  max-width: 600px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+.home-container h1 {
+  font-size: 48px;
+  color: #f7f7f7;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+.lib{
+  color: #ff69b4;
+}
+/* Description text */
+.home-container p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Buttons styling */
+.home-container .button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.home-container a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 24px;
+  background: #ff69b4; /* Pink color */
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.home-container a:hover {
+  background: #ff2a92; /* Darker pink on hover */
+
+}
+
+.snac{
+  margin-top: 200px;
+  margin-left: 350px;
+  width: 450px;
+}

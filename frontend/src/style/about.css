@@ -1,0 +1,46 @@
+.content {
+    max-width: 1000px;
+    margin: 40px auto; /* Centering the content */
+    padding: 20px; /* Adding padding inside the content */
+    background-color: #f8f9fa; /* Light background for readability */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    color: #333; /* Dark text for good contrast */
+    line-height: 1.6; /* Improved readability */
+    margin-top: 100px;
+  }
+  
+  .content h2,
+  .content h3 {
+    margin-bottom: 15px; /* Adding spacing below headings */
+    color: #1d3557; /* Dark blue for headings */
+  }
+  
+  .content p {
+    margin-bottom: 15px; /* Spacing between paragraphs */
+    text-align: justify; /* Neat alignment of text */
+  }
+  
+  .content ul {
+    margin-left: 20px; /* Indent for lists */
+    padding-left: 20px; /* Consistent spacing */
+  }
+  
+  .content ul li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .content strong {
+    color: #e63946; /* Highlighted text in a bold red */
+  }
+  
+  .content a {
+    color: #457b9d; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .content a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  

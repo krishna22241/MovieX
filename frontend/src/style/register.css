@@ -1,0 +1,88 @@
+.register-container {
+  max-width: 450px;
+  margin-left: 650px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.975), rgba(77, 76, 76, 0.4)); /* Black gradient */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.075);
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+/* Background Styling */
+.main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background:  url('../assets/cinema-background-concept-vector.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Heading Styles */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff7f7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Input Fields */
+.register-container input {
+  background: none;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.register-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+/* Button Styles */
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.register-container button:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+.register-container button:active {
+  background: #1e7e34;
+  transform: translateY(0);
+}
+
+/* Message Styling */
+.register-container p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #dc3545; /* Error color */
+}
+
+.register-container p.success {
+  color: #28a745; /* Success message color */
+}
